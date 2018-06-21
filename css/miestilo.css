@@ -9,6 +9,7 @@
 
 .navbar{
 	background-color: #Ffffff;
+	height: 7rem;
 }
 
 /*sección 1*/
@@ -16,6 +17,11 @@
 	background-color: #e56353;
 	color: #FFFFFF;
 	text-align: center;
+	margin-bottom: 0rem;
+}
+
+.jumbotron-seccionuno{
+	height: 25rem;
 }
 
 .container-seccionuno{
@@ -24,10 +30,20 @@
 }
 
 .container-seccionuno h1{
-	font-family: Raleway ExtraLight;
+	font-size: 4rem;
 }
 
 /*sección 2*/
+.row-img-uno{
+	padding-right: 0px;
+
+}
+
+.row-img-dos{
+	padding-right: 0px;
+	padding-left: 0px;
+
+}
 .secciondos-texto1{
 	padding-top: 6rem;
 	padding-left: 5rem;
@@ -70,7 +86,7 @@
 	padding-top: 6rem;
 	padding-left: 4rem;
 	padding-bottom: 5rem;
-	padding-right: 4rem;
+	padding-right: 2rem;
 }
 
 .productores-texto h2{
@@ -82,4 +98,47 @@
 	padding-left: 4rem;
 	padding-bottom: 4rem;
 	padding-right: 4rem;
+}
+
+/*footer*/
+
+.jumbotron-footer{
+	background-color: #686963;
+	height: 15rem;
+	margin-bottom: 0rem;
+}
+
+.footer-logo{
+	float: left;
+	margin-right: 15rem;
+	vertical-align: center;
+}
+
+.footer-redes{
+	float: left;
+	margin-right: 15rem;
+	margin-left: 10rem;
+}
+
+.footer-menu{
+	float: left;
+	margin-left: 20rem;
+}
+
+.footer-redes-face{
+	float: left;
+	margin-right: 3rem;
+}
+
+.footer-redes-insta{
+	float: left;
+	margin-right: 3rem;
+}
+
+.footer-redes-twitter{
+	float: left;
+}
+
+.footer-menu li{
+	list-style: none;
 }
